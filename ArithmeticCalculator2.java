@@ -41,10 +41,11 @@ public class ArithmeticCalculator2 {
 
 		Scanner sc=new Scanner(System.in);
 		ArithmeticCalculator2 obj = new ArithmeticCalculator2();
-		obj.n1(sc);
-		obj.n2(sc);
+		
 		int choice;
 		do {
+		obj.n1(sc);
+		obj.n2(sc);
 		System.out.println("Enter 1 for addition, enter 2 for substraction,enter 3 for multiplication and enter 4 for divion");
 		int enter = sc.nextInt();
 		switch(enter) {
